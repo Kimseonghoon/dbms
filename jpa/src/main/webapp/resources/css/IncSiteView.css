@@ -1,0 +1,52 @@
+/* .plantView {
+ 
+ 	position:absolute;top:0;bottom:0;right:0;left:0;
+ 	color:#000;
+} */
+.plantInfo {
+	position:absolute;
+	top:3%;right:20px;	
+}
+.unit > ul{
+	float:left;
+	width:140px;
+}
+.unit > ul > li {
+	font-size:16px;font-weight:bold;color:#383838;cursor:pointer;
+	text-shadow: 0px 1px 0px #999;
+}
+.unit > ul > li > i {
+	color:#333; 
+}
+.unit > ul > li > ul {
+	margin-top:5px;margin-left:8px;font-size:13px;
+}
+.unit > ul > li > ul i {
+	color:#3B0B9E;
+}
+.unit > ul > li > ul > li:hover {
+	background:#E6F99D;
+}
+#tagSearch {
+	position:absolute;
+	top:3%;left:40px;visibility:visible;
+	color:#000;
+	z-index:9999;
+}
+#tagSearch label {
+	font-size:15px;font-weight:bold;
+	text-shadow: 0px 1px 0px #999;
+}
+#tagSearch i {
+	font-size:26px;vertical-align:middle;cursor:pointer;color:#111;line-height:22px;
+	text-shadow: 0px 1px 0px #999;
+}
+#tagAutocomplete {
+	height:24px;line-height:28px;width:240px;margin-top:5px;border:3px solid #888;background: rgba(255, 255, 255, 0.3);
+}
+#tagMenuContainer {
+	background:rgba(255,255,255,0.3);position:absolute; width: 166px;
+}
+.bx-viewport {
+	height:100% !important;
+}

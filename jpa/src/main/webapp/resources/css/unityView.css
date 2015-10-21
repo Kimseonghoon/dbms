@@ -1,0 +1,102 @@
+a:link, a:visited {
+	color: #000;
+}
+a:active, a:hover {
+	color: #666;
+}
+p.header {
+	font-size: small;
+}
+p.header span {
+	font-weight: bold;
+}
+p.footer {
+	font-size: x-small;
+}
+div.content {
+	margin: auto;
+}
+div.broken, div.missing {
+	margin: auto;
+	position: relative;
+	top: 50%;
+	width: 193px;
+}
+div.broken a, div.missing a {
+	height: 63px;
+	position: relative;
+	top: -31px;
+}
+div.broken img, div.missing img {
+	border-width: 0px;
+}
+div.broken {
+	display: none;
+}
+div#unityMenu {
+	position:absolute;
+	top:0;left:300px;right:0;
+	border-left:1px solid #c7c7c7;
+	
+	height:46px; 
+	cursor: default;
+	/* width: 100%; */
+	background:#888;
+}
+div#unityPlayer {
+	position:absolute;
+	top:46px;left:300px;right:0;bottom:0;
+	cursor: default;
+	border-left:1px solid #c7c7c7;
+	/* width: 100%; */
+}
+.content {
+	position:absolute;
+	top:0;left:0;right:0;bottom:0;
+	
+}
+.lbl_font {
+	font-family: malgun gothic;
+	font-weight: 700;
+	font-size:0.6em;
+	width:54px;
+	color:#333;		
+}
+.lbl_title_font {
+	font-family: malgun gothic;
+	font-weight: bold;
+	font-size:1.2em;
+	width:54px;
+	color:#333;
+}
+.struc_icon label{ 
+	border:1px solid #AAA;
+}
+.ui-selectmenu-button span.ui-selectmenu-text {
+	padding-left:15px;
+	padding-top:3px;
+	padding-bottom:3px;
+	font-size:0.6em;
+}
+.ui-menu .ui-menu-item {
+	padding-top:1px;
+	padding-bottom:1px;
+	font-size:0.6em;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-state-header .ui-state-default{
+	border-color: #555;
+}
+.ui-widget-content {
+	border-color: #555;
+}
+.ui-widget {
+	font-family:malgun gothic;
+	font-size:13px;
+}
+.ui-button-text-only .ui-button-text {
+	padding-top:0px;
+	padding-bottom:0px;
+}
+#leftcontent_top_tree1 table.hdr td {
+	padding: 15px 0px 14px 0px !important;
+}
